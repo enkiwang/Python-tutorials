@@ -39,12 +39,12 @@ def append_list(num, res=None):
     return res
 
 list_4 = append_list(4)
-print(list_4)
+print(list_4)               #[4]
 
-list_5 = append_list(5)
+list_5 = append_list(5)     #[5]
 print(list_5)
 
-list_6 = append_list(6)
+list_6 = append_list(6)     #[6]
 print(list_6)
 
 # display three lists after append operation
