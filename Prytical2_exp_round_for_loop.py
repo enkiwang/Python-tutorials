@@ -2,10 +2,9 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sat Mar 31 15:17:15 2018
-1)softmax, for multiclass classification, P(y=j|x)=exp(x'*w_j)/sum(exp(x'*w_k)), k=1,..,K
+Focus on softmax, for multiclass classification, P(y=j|x)=exp(x'*w_j)/sum(exp(x'*w_k)), k=1,..,K
   1)the largest value will be augmented while the rests suppressed, and the least ones significantly suppressed.
   2)scale variant due to the NONLINEARITY of exp(), denominators are the same for all entries
-2)cross_entropy
 @author: yongweiw
 """
 
