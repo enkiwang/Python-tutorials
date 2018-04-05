@@ -55,7 +55,7 @@ def main(args):
             else:
                 f= open(os.path.join(save_dir, "img" + "_" + str(i+1) + "."+Type),'wb')
                 print("Downloading " + query + " image {}..".format(i+1))
-#                print("Downloading the" + i +"-th image..")  # error since i is number, thus cannot be concatenated      
+                ##print("Downloading the" + i +"-th image..")  # error since i is number, thus cannot be concatenated      
             f.write(raw_img)
             f.close()
             
