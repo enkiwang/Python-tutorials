@@ -3,7 +3,7 @@
 """
 Created on Wed Apr  4 16:00:48 2018
 images crawler
-python crawler_trial2.py --key "cat" --num 10 --dir "./data"
+python Prytical5_soup_urllib2.py --key "cat" --num 10 --dir "./data"
 Ref. https://gist.github.com/genekogan/ebd77196e4bf0705db51f86431099e57#file-scrapeimages-py-L35
 @author: yongweiw
 """
