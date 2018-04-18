@@ -21,7 +21,7 @@ print(data)
 
 # generate random integers using shuffle function
 data2 = list(range(1,11))
-random.shuffle(data2)
+random.shuffle(data2)  # shuffle option, if data3= random.shuffle(data2), print(data3) returns None.
 print(data2)
 
 """
