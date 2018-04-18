@@ -20,7 +20,7 @@ data = random.sample(range(1, 11), 10)  # [1, 2,.., 10]
 print(data)
 
 # generate random integers using shuffle function
-data2 = list(range(1,11))
+data2 = list(range(1,11))   # input must be a list, while range(1,11) is a np.ndarray
 random.shuffle(data2)  # shuffle option, if data3= random.shuffle(data2), print(data3) returns None.
 print(data2)
 
