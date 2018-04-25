@@ -12,7 +12,6 @@ query: ?a=1&b=2&c=3
 saving_dir: /tmp/index.html
 ------------------------------------------------------------------------------------
 @author: @https://www.cnblogs.com/linxiyue/p/3908623.html
-
 """
 
 import argparse
