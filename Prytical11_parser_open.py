@@ -1,9 +1,12 @@
 """
 Created on Wed Apr 25 09:02:00 2018
+*****parser + open a file (to write) *****
+------------------------------------------------------------------------------------
 python this_file_name.py -u http://www.sohu.com -d 'a=1,b=2,c=3' -o /tmp/index.html
 url: http://www.sohu.com
 query: ?a=1&b=2&c=3
 saving_dir: /tmp/index.html
+------------------------------------------------------------------------------------
 @author: @https://www.cnblogs.com/linxiyue/p/3908623.html
 
 """
