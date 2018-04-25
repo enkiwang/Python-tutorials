@@ -5,6 +5,7 @@ Created on Wed Apr 25 09:02:00 2018
 2) parser = argparse.ArgumentParser() # create a parser object
 3) parser.add_argument()
 4) parser.parse_args()  # anlyze the parser
+parser.print_help() will print both positional and optional arguments.
 ------------------------------------------------------------------------------------
 python this_file_name.py -u http://www.sohu.com -d 'a=1,b=2,c=3' -o /tmp/index.html
 url: http://www.sohu.com
