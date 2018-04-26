@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed Apr 25 17:27:55 2018
-load_img:
-    1)scipy.misc.imread() or matplotlib.image.imread()
-    2)os.path.exists
+Two way of loading an image from a given directory:
+    1)scipy.misc.imread()  
+    2)matplotlib.image.imread()
 @author: yongweiw
 """
 
