@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Apr 30 21:18:47 2018
+two methods of reading and writing images from/to files. 
+Note that, .imread(*arg, **args), *arg is in string format.
 1)np.clip(data, val_min, val_max), clip values within interval [val_min, val_max]
 2)scipy.misc: .imread(), imsave(image_name_in_string_format, data)
 3)imageio: imwrite()
