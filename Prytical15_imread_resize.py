@@ -39,5 +39,3 @@ for i in range(len(img_list)):
         print ('%d images complete' % (i+1))
 
          
-         
-         
