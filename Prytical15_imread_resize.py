@@ -8,6 +8,8 @@ Functions:
    scipy.misc.imread(/path/to/image/.image_extension)
    scipy.misc.imresize(image_to_resize, (resize_size, resize_size))
    scipy.misc.imsave(save_root + name, arr=img_data)
+   
+   Also you can refer to:  matplotlib.pyplot.imread, imresize, imsave
 
 @author: Yongwei
 """
