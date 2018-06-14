@@ -17,7 +17,7 @@ Functions:
 import os
 from scipy.misc import imread, imresize, imsave
 
-root = '/path/to/Dataset_original'
+root = '/path/to/Dataset_original/'
 save_root = '/path/to/Dataset_resized/'
 
 resize_size = 128
