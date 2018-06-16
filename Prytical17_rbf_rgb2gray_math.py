@@ -35,7 +35,7 @@ def rgb2gray(rgb):
 
 def rbf(x, y, sigma):
     
-    return  exp( - np.dot(x, y) /(2*sigma**2) ) 
+    return  exp( - np.dot(x-y, x-y) /(2*sigma**2) ) 
 
 
 for i in range(img_num):
