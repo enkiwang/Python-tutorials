@@ -50,7 +50,7 @@ def torch_to_np(img_var):
     
 def np_to_torch(img_np):
     """Convers an image from numpy to torch.Tensor.
-    Input: C x H x W [0,1] torch.tensor
+    Input: C x H x W [0,1] torch.Tensor
     Output: 1 x C x H x W [0,1]    
     """
     return torch.from_numpy(img_np)[None,:] #or you can use,[None,:],then  torch.Tensor()   
